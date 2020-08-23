@@ -165,7 +165,7 @@ p {
 #header {
   /* background: url("../images/home-bg.jpg") repeat scroll center center / cover; */
   /* background: url("../images/demo1.jpg") repeat scroll center center / cover; */
-  background: url("/images/demo2.jpg") repeat scroll center center / cover;
+  background: url("../images/demo2.jpg") repeat scroll center center / cover;
   height: 100vh;
   width: 100%;
 }
@@ -207,6 +207,8 @@ p {
 }
 .header-content .reg-btn {
   width: fit-content;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 550;
 }
 .novatiaLogo-header {
   width: 40%
@@ -218,10 +220,11 @@ p {
 
 .abt-heading {
     text-align: center;
-    font-size: 5rem;
-    line-height: 4rem;
+    font-size: 4rem;
+    line-height: 3rem;
     margin-top: 2rem;
     color: black;
+    letter-spacing: 0.2rem;
     font-family: 'Oswald', sans-serif;
 }
 
@@ -230,7 +233,9 @@ p {
   font-size: 3rem;
   line-height: 2.5rem;
   margin-top: 2rem;
+  
   color: black;
+  letter-spacing: 0.2rem;
   font-family: 'Oswald', sans-serif;
 }
 
@@ -238,12 +243,12 @@ p {
   height: 2px;
   background-color: white;
   margin: 0 auto;
-  background-image: linear-gradient(left , white 2%, #FFFF00 50%, white 98%);
-  background-image: -o-linear-gradient(left , white 2%, #FFFF00 50%, white 98%);
-  background-image: -moz-linear-gradient(left , white 2%, #FFFF00 50%, white 98%);
-  background-image: -webkit-linear-gradient(left , white 2%, #FFFF00 50%, white 98%);
-  background-image: -ms-linear-gradient(left , white 2%, #FFFF00 50%, white 98%);
-  background-image: -webkit-gradient( linear, left bottom, right bottom, color-stop(0.02, white), color-stop(0.5, #FFFF00 ), color-stop(0.98, white) );
+  background-image: linear-gradient(left , white 2%, #FCC30B 50%, white 98%);
+  background-image: -o-linear-gradient(left , white 2%, #FCC30B 50%, white 98%);
+  background-image: -moz-linear-gradient(left , white 2%, #FCC30B 50%, white 98%);
+  background-image: -webkit-linear-gradient(left , white 2%, #FCC30B 50%, white 98%);
+  background-image: -ms-linear-gradient(left , white 2%, #FCC30B 50%, white 98%);
+  background-image: -webkit-gradient( linear, left bottom, right bottom, color-stop(0.02, white), color-stop(0.5, #FCC30B ), color-stop(0.98, white) );
 }
 
 .abt-text {
@@ -281,11 +286,8 @@ p {
 /* Timeline Section
 --------------------------------*/
 .abt-section  {
-  
   padding: 100px 0px;
-  
 }
-
 
 .timeline_temp{
   /* opacity:0.8; */
@@ -298,7 +300,6 @@ p {
   justify-content: center;
   align-items: center;
   width:100%;
-   
 }
 
 .row_temp {
@@ -311,9 +312,11 @@ p {
   /* height: 25rem;  creating text overflow */
   word-break: break-word;
 }
+
 .reg-heading-left {
-  color: yellow;
+  color: #FCC30B;
   font-size: 40px;
+  letter-spacing: 0.2rem;
   font-family: 'Oswald', sans-serif;
   padding-left:15px;
   /* padding-left: 8rem; */
@@ -323,6 +326,7 @@ p {
 .reg-heading-right {
   color: black;
   font-size: 40px;
+  letter-spacing: 0.2rem;
   font-family: 'Oswald', sans-serif;
   /* padding-left: 8rem; */
   padding-top: 4rem;
@@ -353,7 +357,7 @@ p {
 }
 /* Second div */
 .timeline-bg2 {
-  background-color: gold;
+  background-color: #FCC30B;
 }
 .mentorship-image {
   padding-top: 4rem;
@@ -365,7 +369,7 @@ p {
 }
 /* Fourth div */
 .timeline-bg4 {
-  background-color: gold;
+  background-color: #FCC30B;
   /* height: 25rem; */
 }
 
@@ -387,21 +391,21 @@ p {
   width: 50%;
   background-color: white;
   margin: 0 auto;
-  background-image: linear-gradient(left , white 2%, #FFFF00 50%, white 98%);
-  background-image: -o-linear-gradient(left , white 2%, #FFFF00 50%, white 98%);
-  background-image: -moz-linear-gradient(left , white 2%, #FFFF00 50%, white 98%);
-  background-image: -webkit-linear-gradient(left , white 2%, #FFFF00 50%, white 98%);
-  background-image: -ms-linear-gradient(left , white 2%, #FFFF00 50%, white 98%);
-  background-image: -webkit-gradient( linear, left bottom, right bottom, color-stop(0.02, white), color-stop(0.5, #FFFF00 ), color-stop(0.98, white) );
+  background-image: linear-gradient(left , white 2%, #FCC30B 50%, white 98%);
+  background-image: -o-linear-gradient(left , white 2%, #FCC30B 50%, white 98%);
+  background-image: -moz-linear-gradient(left , white 2%, #FCC30B 50%, white 98%);
+  background-image: -webkit-linear-gradient(left , white 2%, #FCC30B 50%, white 98%);
+  background-image: -ms-linear-gradient(left , white 2%, #FCC30B 50%, white 98%);
+  background-image: -webkit-gradient( linear, left bottom, right bottom, color-stop(0.02, white), color-stop(0.5, #FCC30B ), color-stop(0.98, white) );
 }
 .speaker_image {
   height: 10rem;
   width: 10rem;
   border-radius: 50%;
-  border: 4px solid gold;
+  border: 4px solid #FCC30B;
 }
 .speaker_name {
-  color: gold;
+  color: #FCC30B;
   font-weight: 500;
   font-size: 1.2em;
 }
@@ -428,12 +432,12 @@ p {
   width: 50%;
   background-color: black;
   margin: 0 auto;
-  background-image: linear-gradient(left , black 2%, #FFFF00 50%, black 98%);
-  background-image: -o-linear-gradient(left , black 2%, #FFFF00 50%, black 98%);
-  background-image: -moz-linear-gradient(left , black 2%, #FFFF00 50%, black 98%);
-  background-image: -webkit-linear-gradient(left , black 2%, #FFFF00 50%, black 98%);
-  background-image: -ms-linear-gradient(left , black 2%, #FFFF00 50%, black 98%);
-  background-image: -webkit-gradient( linear, left bottom, right bottom, color-stop(0.02, black), color-stop(0.5, #FFFF00 ), color-stop(0.98, black) );
+  background-image: linear-gradient(left , black 2%, ##FCC30B 50%, black 98%);
+  background-image: -o-linear-gradient(left , black 2%, ##FCC30B 50%, black 98%);
+  background-image: -moz-linear-gradient(left , black 2%, ##FCC30B 50%, black 98%);
+  background-image: -webkit-linear-gradient(left , black 2%, ##FCC30B 50%, black 98%);
+  background-image: -ms-linear-gradient(left , black 2%, ##FCC30B 50%, black 98%);
+  background-image: -webkit-gradient( linear, left bottom, right bottom, color-stop(0.02, black), color-stop(0.5, ##FCC30B ), color-stop(0.98, black) );
 }
 
 /*-----------------------------------------------------------------------------------*/
@@ -442,7 +446,7 @@ p {
 .investor_image {
   height: 10rem;
   width: 10rem;
-  border: 4px solid gold;
+  border: 4px solid #FCC30B;
 }
 
 /*-----------------------------------------------------------------------------------*/
@@ -451,7 +455,7 @@ p {
 .partner_image {
   height: 10rem;
   width: 10rem;
-  border: 4px solid gold;
+  border: 4px solid #FCC30B;
 }
 
 /*-----------------------------------------------------------------------------------*/
@@ -502,7 +506,7 @@ p {
 }
 
 .contact-info a:hover {
-  color: gold;
+  color: #FCC30B;
 }
 
 .contact-address,
@@ -553,7 +557,7 @@ p {
 }
 
 #footer .socials-media ul li a:hover {
-  color: #b8a07e;
+  color: #FCC30B;
   -moz-transition: all 0.5s ease-in-out 0s;
   -ms-transition: all 0.5s ease-in-out 0s;
   -o-transition: all 0.5s ease-in-out 0s;

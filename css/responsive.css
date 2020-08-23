@@ -224,10 +224,11 @@
   }
 
   .reg-heading-left {
-    color: yellow;
-    font-size: 28px;
+    color: #FCC30B;
+    font-size: 27px;
     font-family: 'Oswald', sans-serif;
     padding-left:0;
+    letter-spacing: 0.1rem;
     /* padding-left: 8rem; */
     text-align: center;
     padding-top: 2rem;
@@ -235,9 +236,10 @@
   
   .reg-heading-right {
     color: black;
-    font-size: 28px;
+    font-size: 27px;
     font-family: 'Oswald', sans-serif;
     text-align: center;
+    letter-spacing: 0.1rem;
     /* padding-left: 8rem; */
     padding-top: 2rem;
   }
@@ -268,7 +270,7 @@
   }
 
   .timeline-bg2 {
-    background-color: gold;
+    background-color: #FCC30B;
     /* height: 37rem; */
   }
   .mentorship-image {
@@ -282,7 +284,7 @@
   }
 
   .timeline-bg4 {
-    background-color: gold;
+    background-color: #FCC30B;
     /* height: 40rem; */
   }
 
